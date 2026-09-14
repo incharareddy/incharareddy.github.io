@@ -36,7 +36,7 @@ export function Hero() {
             </p>
           </motion.div>
           
-          <motion.h1 variants={item} className="text-5xl md:text-7xl font-display font-medium leading-[1.1] tracking-tighter mb-6 text-foreground">
+          <motion.h1 variants={item} className="text-4xl md:text-6xl font-display font-medium leading-[1.1] tracking-tighter mb-6 text-foreground">
             {portfolioData.personal.name}
             <span className="block text-muted mt-2">{portfolioData.personal.role}</span>
           </motion.h1>
